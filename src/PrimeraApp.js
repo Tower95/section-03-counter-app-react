@@ -5,7 +5,8 @@ const PrimeraApp = ({saludo, subtitulo}) => {
 
   return( 
     <>
-    <h1>{saludo}</h1>
+    <h1> 
+      {saludo} </h1>
       {/* <pre>{ JSON.stringify(saludo,null,3) }</pre> */}
       <p>{subtitulo}</p>
     </>
@@ -13,7 +14,7 @@ const PrimeraApp = ({saludo, subtitulo}) => {
 }
 
 PrimeraApp.protoTypes = {
-  saludo:PropTypes.string.isRequired,
+  saludo: PropTypes.string.isRequired,
   subtitulo: PropTypes.number.isRequired,
 }
 

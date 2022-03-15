@@ -1,6 +1,7 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
 import CounterApp from './CounterApp';
+import PrimeraApp from "./PrimeraApp";
 
 //cuando es el archivo de css tienes que espesificar el file.css
 import  './index.css';
